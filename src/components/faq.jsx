@@ -5,7 +5,7 @@ function FaqItem(props){
     return (
         <>
             <div class="tab w-full overflow-hidden border-t">
-                <input class="absolute opacity-0" id={props.id} checked={isChecked}  type="radio" name="tabs2" onClick={()=>setIsChecked(!isChecked)}/>
+                <input class="absolute opacity-0" id={props.id} checked={isChecked}  type="checkbox" name="tabs2" onClick={()=>setIsChecked(!isChecked)}/>
                 <label class="block p-5 leading-normal cursor-pointer" for={props.id}>{props.question}</label>
                 <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
                     <p class="p-5">{props.body}</p>
