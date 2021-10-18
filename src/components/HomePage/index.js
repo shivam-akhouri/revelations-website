@@ -31,16 +31,15 @@ function HomePage() {
         <ParallaxLayer
           speed={-0.6}
           style={{
-            lineHeight: 10,
             fontFamily: "'Montserrat', sans-serif",
             color: "white",
             textAlign: "center",
-            fontSize: "70px",
             display: "block",
             pointerEvents: "none",
+            marginTop: "150px"
           }}
         >
-          <h1>REVELATION</h1>
+          <h1 style={{color: "blue", fontSize: "150px", opacity: "0.3" }}>REVELATION</h1>
         </ParallaxLayer>
         <ParallaxLayer
           speed={0.4}
