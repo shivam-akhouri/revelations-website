@@ -5,25 +5,34 @@ import sky from "../../images/parallax-background/sky.png";
 import mountain from "../../images/parallax-background/mountain.png";
 import forest from "../../images/parallax-background/forest.png";
 import castle from "../../images/parallax-background/castle.png";
+
+import "./index.css";
+
+import Footer from '../footer';
+import FAQ from "../faq";
+import Faq from "../faq";
+
 function HomePage() {
   //   const parallax = useRef < IParallax > null;
   return (
     <>
-      <Parallax pages={2}>
+      <Parallax pages={3}>
         <ParallaxLayer
-          speed={0.4}
-          style={{ height: "", display: "block", pointerEvents: "none" }}
-        >
-          <img src={sky} alt="moon" />
-        </ParallaxLayer>
+          offset={0}
+          speed={0}
+          factor={3}
+          style={{ backgroundColor: "#d4418e",
+          backgroundImage: `url(${sky})`, backgroundRepeat: "no-repeat"
+        }}
+        />
         <ParallaxLayer
           speed={-0.5}
           style={{ height: "", display: "block", pointerEvents: "none" }}
         >
-          <img src={moon} alt="moon" />
+          <img src={moon} alt="moon" id="moon"/>
         </ParallaxLayer>
         <ParallaxLayer
-          speed={0.6}
+          speed={0.4}
           style={{ height: "", display: "block", pointerEvents: "none" }}
         >
           <img src={mountain} alt="moon" />
@@ -39,7 +48,7 @@ function HomePage() {
             marginTop: "150px"
           }}
         >
-          <h1 style={{color: "blue", fontSize: "150px", opacity: "0.3" }}>REVELATION</h1>
+          <h1 style={{color: "blue", fontSize: "12vw", opacity: "0.6" }}>REVELATION</h1>
         </ParallaxLayer>
         <ParallaxLayer
           speed={0.4}
@@ -52,6 +61,20 @@ function HomePage() {
           style={{ height: "", display: "block", pointerEvents: "none" }}
         >
           <img src={castle} alt="moon" />
+        </ParallaxLayer>
+        <ParallaxLayer
+          offset={1}
+          speed={0.4}
+          style={{ height: "", display: "block" }}
+        >
+          <Faq />
+        </ParallaxLayer>
+        <ParallaxLayer
+          offset={2}
+          speed={0.4}
+          style={{ height: "", display: "block", pointerEvents: "none" }}
+        >
+          <Footer />
         </ParallaxLayer>
       </Parallax>
     </>
