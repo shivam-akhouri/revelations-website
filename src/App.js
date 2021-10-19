@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+
+//import logo from './logo.svg';
+
 import './App.css';
-import Faq from './components/faq';
+
+import Footer from './components/footer';
 
 function App() {
-  return (
-    <Faq />
+  return ( 
+    <>
+      <Footer /> 
+    </>
   );
 }
 
