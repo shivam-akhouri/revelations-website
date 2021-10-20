@@ -7,13 +7,13 @@
   padding: 5%;
   padding-top: 8%;
   position: relative;
+  font-family: "Montserrat", sans-serif;
 }
 .main-image {
   width: 100%;
   height: auto;
 }
 .header-container {
-  font-family: "Montserrat", sans-serif;
   color: #fff;
   text-align: center;
   display: block;
@@ -42,6 +42,11 @@
   background-color: #e74c3c;
   font-size: 1.2rem;
 }
+.apply-button:hover{
+    background-color: #fff;
+    color: #e74c3c;
+    transform: translate3d(0, -5px, 18px); 
+}
 .join-discord-button {
   padding: 1%;
   margin: 1%;
@@ -53,6 +58,11 @@
   background-color: #0000ff;
   color: #fff;
   font-size: 1.2rem;
+}
+.join-discord-button:hover{
+    background-color: #fff;
+    color: #0000ff;
+    transform: translate3d(0, -5px, 18px); 
 }
 .button-icon {
   font-size: 1.5rem;
