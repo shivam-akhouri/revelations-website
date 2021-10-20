@@ -1,22 +1,34 @@
-
 //import logo from './logo.svg';
 
-import './App.css';
+import "./App.css";
+import "./components/HomePage/index.css";
 
-// images
-import Banner from "./images/banner_peach.svg";
+import Faq from "./components/FAQ";
+import TimeLine from "./components/TimeLine";
+import Footer from "./components/Footer";
 
 // components
-import Footer from './components/footer';
-import FAQ from "./components/faq";
-import Hero from "./components/HomePage";
-import HomePage from './components/HomePage';
+import HomePage from "./components/HomePage";
 
 function App() {
-  return ( 
-    <>
-      <HomePage />
-    </>
+  return (
+    <div style={{ backgroundColor: "#0E0221"}}>
+      {/* <HomePage /> */}
+      <div>
+        <div style={{ textAlign: "center" }}>
+          <h5 className="timeline-headers">Schedule</h5>
+        </div>
+        <TimeLine />
+        <div class="text-center p-4 border-t-2 border-gray-300 mt-12 lg:mx-32 md:mx-5 sm:mx-10">
+          <h5 className="timeline-headers">Sponsors & partners</h5>
+        </div>
+         <div class="text-center p-4 border-t-2 border-gray-300 mt-12 lg:mx-32 md:mx-5 sm:mx-10">
+           <h5 className="timeline-headers">FAQ</h5>
+         </div>
+        <Faq />
+        <Footer />
+      </div>
+    </div>
   );
 }
 
