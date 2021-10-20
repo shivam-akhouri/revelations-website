@@ -23,7 +23,7 @@ function App() {
          <div class="text-center p-4 border-t-2 border-gray-300 mt-12 lg:mx-32 md:mx-5 sm:mx-10">
            <h5 className="timeline-headers">FAQ</h5>
          </div>
-         <Faq />
+        <Faq />
         <Footer />
       </div>
     </div>

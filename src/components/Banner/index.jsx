@@ -7,6 +7,7 @@ export default function Banner() {
   return (
     <div>
       <StarfieldAnimation
+        numParticles="500"
         style={{
           position: "absolute",
           width: "100%",
