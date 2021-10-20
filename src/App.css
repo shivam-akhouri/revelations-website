@@ -1,0 +1,167 @@
+.banner-text-container {
+  height: 100vh;
+  text-align: center;
+  border-bottom: 2px solid;
+  border-color: #fff;
+  margin-left: auto;
+  padding: 5%;
+  padding-top: 8%;
+  position: relative;
+}
+.main-image {
+  width: 100%;
+  height: auto;
+}
+.header-container {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-align: center;
+  display: block;
+  pointer-events: none;
+  margin-top: 150px;
+}
+.main-header {
+  color: #fff;
+  font-size: 12rem;
+}
+.sub-header {
+  color: #fff;
+  font-size: 1.8rem;
+  opacity: 0.8;
+}
+.button-container {
+  padding: 1%;
+}
+.apply-button {
+  padding: 1%;
+  margin: 1%;
+  width: 20%;
+  border-radius: 24px;
+  border: 0.1px solid black;
+  color: #fff;
+  background-color: #e74c3c;
+  font-size: 1.2rem;
+}
+.join-discord-button {
+  padding: 1%;
+  margin: 1%;
+  width: 20%;
+  border-radius: 24px;
+  border: 0.1px solid black;
+  display: inline-flex;
+  justify-content: center;
+  background-color: #0000ff;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.button-icon {
+  font-size: 1.5rem;
+  margin-left: 5%;
+  margin-top: auto;
+}
+.timeline-header-box{
+    text-align: center;
+    padding-top: 2%;
+}
+.timeline-headers {
+  color: #fff;
+  font-size: 4rem;
+}
+.faq {
+  font-size: 5rem;
+  padding-bottom: 2%;
+}
+@media (max-width: 1280px) {
+  .main-header {
+    font-size: 10rem;
+  }
+  .button-icon {
+    font-size: 1.2rem;
+  }
+  .apply-button {
+    font-size: 1rem;
+  }
+  .join-discord-button {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1060px) {
+  .banner-text-container {
+    padding-top: 15%;
+  }
+  .main-header {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 872px) {
+  .banner-text-container {
+    padding-top: 20%;
+  }
+  .main-header {
+    font-size: 6rem;
+  }
+  .button-icon {
+    font-size: 1.2rem;
+  }
+  .apply-button {
+    font-size: 0.8rem;
+  }
+  .join-discord-button {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 768px) {
+  .banner-text-container {
+    height: 50vh;
+    padding-top: 10%;
+  }
+  .main-header {
+    font-size: 4rem;
+  }
+  .apply-button {
+    width: 30%;
+  }
+  .join-discord-button {
+    width: 30%;
+  }
+  .faq {
+    font-size: 3rem;
+  }
+  .timeline-headers {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 420px) {
+  .banner-text-container {
+    padding-top: 20%;
+  }
+  .header-container {
+    margin-top: 50px;
+  }
+  .main-header {
+    font-size: 3rem;
+  }
+  .sub-header {
+    font-size: 1rem;
+  }
+  .apply-button {
+    width: 50%;
+  }
+  .button-icon {
+    font-size: 1rem;
+  }
+  .join-discord-button {
+    width: 50%;
+  }
+  .timeline-headers {
+    font-size: 1.3rem;
+  }
+  .faq {
+    font-size: 1.5rem;
+  }
+  @media (max-width: 280px){
+    .main-header {
+        font-size: 2.5rem;
+      }
+  }
+}
