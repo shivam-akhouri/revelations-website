@@ -3,7 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FaReact } from "react-icons/fa";
+import { FaDoorOpen,FaMusic,FaBug,FaAndroid,FaTheaterMasks,FaCss3,FaGoogle,FaDoorClosed } from "react-icons/fa";
 
 export default function TimeLine() {
   return (
@@ -11,155 +11,135 @@ export default function TimeLine() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2011 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaReact />}
+          contentStyle={{ background: "#e74c3c", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #e74c3c" }}
+          date="12th November, 2021"
+          iconStyle={{ background: "#e74c3c", color: "#fff" }}
+          icon={<FaDoorOpen />}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h3 className="vertical-timeline-element-title">Opening Ceremony</h3>
+          <h4 className="vertical-timeline-element-subtitle">7:00 PM - 7:45 PM</h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
+            Open to All
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(16, 204, 82)" }}
-          date="2008 - 2010"
-          iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          icon={<FaReact />}
+          contentStyle={{ background: "#2ecc71", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #2ecc71" }}
+          date="12th November, 2021"
+          iconStyle={{ background: "#2ecc71", color: "#fff" }}
+          icon={<FaMusic />}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
+          <h3 className="vertical-timeline-element-title">Comedy Club/Music Club Event</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            8:00 PM - 10:00 PM
           </h4>
           <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
+            Unpaid
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="April 2013"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          contentStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(233, 30, 99)" }}
-          icon={<FaReact />}
+          date="13th November, 2021"
+          iconStyle={{ background: "#34495e", color: "#fff" }}
+          contentStyle={{ background: "#34495e", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #34495e" }}
+          icon={<FaBug />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
+          <h3 className="vertical-timeline-element-title">ZBC Talk Show</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Los Angeles, CA
+            10:00 AM -12:00 AM
           </h4>
-          <p>User Experience, Visual Design</p>
+          <p>Decision Pending</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
+          date="13th November, 2021"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<FaReact />}
+          icon={<FaAndroid />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
+          <h3 className="vertical-timeline-element-title">Android Club Talk Show</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            2:00 PM - 4: 00 PM
           </h4>
-          <p>User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        {/* <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="April 2013"
-          contentStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(16, 204, 82)" }}
-          iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          icon={<FaReact />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Content Marketing for Web, Mobile and Social Media
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>Strategy, Social Media</p>
+          <p>Unpaid</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="November 2012"
+          date="13th November, 2021"
+          contentStyle={{ background: "#2ecc71", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #2ecc71" }}
+          iconStyle={{ background: "#2ecc71", color: "#fff" }}
+          icon={<FaTheaterMasks />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Comedy Club/Music Club
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">5:30 PM - 7:00 PM</h4>
+          <p>Decision Pending</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="13th November, 2021"
+          iconStyle={{ background: "#214CE5", color: "#fff" }}
+          contentStyle={{ background: "#214CE5", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #214CE5" }}
+          icon={<FaCss3 />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            CSS Battles
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">8:00 PM - 10:00 PM</h4>
+          <p>Paid</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="14th November, 2021"
+          contentStyle={{ background: "#fff", color: "#000" }}
+          contentArrowStyle={{ borderRight: "7px solid  #fff" }}
+          iconStyle={{ background: "#fff", color: "#000" }}
+          icon={<FaGoogle />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Google Developers Club Talk Show
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            12:00 PM - 2:00 PM
+          </h4>
+          <p>Paid</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="14th November, 2021"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<FaAndroid />}
+        >
+          <h3 className="vertical-timeline-element-title">Android Club Talk Show</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            4:00 PM -
+          </h4>
+          <p>Unpaid</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="14th November, 2021"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           contentStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(233, 30, 99)" }}
-          icon={<FaReact />}
+          icon={<FaDoorClosed />}
         >
           <h3 className="vertical-timeline-element-title">
-            Agile Development Scrum Master
+            Closing Ceremony
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>Creative Direction, User Experience, Visual Design</p>
+          <h4 className="vertical-timeline-element-subtitle">6:00 PM - 8:00 PM</h4>
+          <p>Open to all</p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          contentStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(16, 204, 82)" }}
-          iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          icon={<FaReact />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Bachelor of Science in Interactive Digital Media Visual Imaging
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Bachelor Degree
-          </h4>
-          <p>Creative Direction, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          icon={<FaReact />}
-        /> */}
       </VerticalTimeline>
     </>
   );
 }
-
-
-// import React, { useState } from "react";
-// import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-// import styles from "./styles.module.css";
-
-// const Page = ({ offset, gradient, onClick }) => {
-//   return (
-//     <>
-//       <ParallaxLayer offset={offset} speed={0.2} onClick={onClick}>
-//         <div className={styles.slopeBegin} />
-//       </ParallaxLayer>
-
-//       <ParallaxLayer offset={offset} speed={0.6} onClick={onClick}>
-//         <div className={`${styles.slopeEnd} ${styles[gradient]}`} />
-//       </ParallaxLayer>
-
-//       <ParallaxLayer
-//         className={`${styles.text} ${styles.number}`}
-//         offset={offset}
-//         speed={0.3}
-//       >
-//         <span>0{offset + 1}</span>
-//       </ParallaxLayer>
-//     </>
-//   );
-// };
-
-// export default function TimeLine() {
-//   const [step,setStep] = useState(0);
-
-//   return (
-//     <div style={{ background: "#dfdfdf" }}>
-//       <Parallax className={styles.container} pages={3} horizontal>
-//         <Page offset={0} gradient="pink" onClick={()=>setStep(1)}/>
-//         <Page offset={1} gradient="teal" onClick={()=>setStep(2)}/>
-//         <Page offset={2} gradient="tomato" onClick={()=>setStep(0)}/>
-//       </Parallax>
-//     </div>
-//   );
-// }
